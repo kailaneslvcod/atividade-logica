@@ -1,0 +1,102 @@
+Atividade – Operadores Lógicos
+
+Aluno(a):Kailane Silva Araújo
+Data:19/03/2026
+
+---
+
+Exercício 1
+
+Variável: nota = 10
+Sentença: nota <= 10
+
+Resolução:
+10 <= 10 → Verdadeiro
+
+Resultado: Verdadeiro
+
+---
+ Exercício 2
+
+Variáveis: nota = 6, faltas = 4
+Sentença: (nota <= 6) and (faltas <= 3)
+
+Resolução:
+nota <= 6 → 6 <= 6 → Verdadeiro
+faltas <= 3 → 4 <= 3 → Falso
+
+Verdadeiro and Falso → Falso
+
+Resultado: Falso
+
+---
+
+Exercício 3
+
+Variáveis: convidados = 3, fumante = False
+Sentença: (convidados > 4) or (fumante == True)
+
+Resolução:
+convidados > 4 → 3 > 4 → Falso
+fumante == True → False == True → Falso
+
+Falso or Falso → Falso
+
+Resultado: Falso
+
+---
+
+Exercício 4
+
+Variável: dia = "qua"
+Sentença: (dia == "sab") or (dia == "dom")
+
+Resolução:
+"qua" == "sab" → Falso
+"qua" == "dom" → Falso
+
+Falso or Falso → Falso
+
+Resultado: Falso
+
+---
+
+Exercício 5
+
+Variável: feriado = True
+Sentença: not (feriado == False)
+
+Resolução:
+feriado == False → True == False → Falso
+not Falso → Verdadeiro
+
+Resultado: Verdadeiro
+
+---
+
+Exercício 6
+
+Variáveis: dia = "ter", feriado = False
+Sentença: (dia == "seg") or !(feriado == False)
+
+Resolução:
+dia == "seg" → Falso
+feriado == False → True
+!True → Falso
+
+Falso or Falso → Falso
+
+Resultado: Falso
+
+---
+
+Conclusão Final
+
+1. Verdadeiro
+2. Falso
+3. Falso
+4. Falso
+5. Verdadeiro
+6. Falso
+
+---
